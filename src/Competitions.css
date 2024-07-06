@@ -1,0 +1,51 @@
+.competitions {
+  padding: 20px;
+  text-align: center;
+}
+
+.competitions h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.competitions ul {
+  list-style: none;
+  padding: 0;
+}
+
+button{
+ background-color: #5d0792;
+ color:white;
+}
+
+.competition-item {
+  
+  background-color: #bd81e6;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: left;
+  transition: box-shadow 0.3s;
+}
+
+.competition-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.competition-item h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.5em;
+}
+
+.competition-item p {
+  margin: 5px 0;
+}
+
+.competition-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.competition-item a:hover {
+  text-decoration: underline;
+}

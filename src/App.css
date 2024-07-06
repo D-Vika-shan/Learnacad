@@ -5,6 +5,10 @@
   
 }
 
+h1{
+  color: #bd81e6;
+}
+
 body{
   background-color: rgb(95, 51, 155);
 }
@@ -17,10 +21,49 @@ body{
   color: white;
 }
 
-.App.welcome{
-  font-size:30px;
-  font-style: bold;
+.notes .years, .notes .subjects {
+  margin: 10px 0;
+  
 }
+
+.notes .years button, .notes .subjects button {
+  display: block;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #bd81e6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.logo-link{
+  display: inline-flex;
+  align-items: center;
+  
+}
+
+.logo-img {
+  margin-right: 10px; 
+}
+
+.notes .note-content {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.subjects{
+  display: inline;
+}
+
+.side{
+  display: inline-block;
+}
+
+.years{
+  display: inline-flex;
+  padding :10px;
+}
+
 
 .logo {
   font-size: 1.5em;
