@@ -1,7 +1,7 @@
 .courses {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     padding: 20px;
   }
@@ -15,7 +15,7 @@
     border: 1px solid #ccc;
   }
 
-  .course {
+  .coursenote {
     width: 500px;
     display: flex;
     align-items: center;

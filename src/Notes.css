@@ -1,0 +1,79 @@
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.module-button{
+  background-color: #efecec;
+  color:rgb(95, 51, 155);
+  border-radius: 5px;
+  margin:5px;
+  padding:10px;
+  border:0px;
+}
+
+.module-button:hover{
+  color: #efecec;
+  background-color:rgb(95, 51, 155);
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.course {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  background-color: #bd81e6;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.course:hover {
+  transform: scale(1.05);
+}
+
+.course-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.course-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-details h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.course-details p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+/* Add fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

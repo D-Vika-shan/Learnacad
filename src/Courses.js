@@ -71,7 +71,7 @@ const Courses = () => {
         onChange={handleSearchChange}
       />
       {filteredCourses.map(course => (
-        <div key={course.id} className="course">
+        <div key={course.id} className="coursenote">
           <a href={course.youtubeLink} target="_blank" rel="noopener noreferrer">
             <img src={course.imageUrl} alt={course.name} className="course-image" />
           </a>

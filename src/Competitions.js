@@ -1,5 +1,5 @@
 import React from 'react';
-import './Competitions.css'; // Create and import a CSS file for styling
+import './Competitions.css'; // Import your CSS file for styling
 
 const competitions = [
   {

@@ -1,6 +1,7 @@
 .competitions {
   padding: 20px;
   text-align: center;
+  animation: fadeInUp 1s ease-in-out;
 }
 
 .competitions h1 {
@@ -13,19 +14,14 @@
   padding: 0;
 }
 
-button{
- background-color: #5d0792;
- color:white;
-}
-
 .competition-item {
-  
   background-color: #bd81e6;
   padding: 15px;
   border-radius: 8px;
   margin-bottom: 20px;
   text-align: left;
   transition: box-shadow 0.3s;
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 .competition-item:hover {
@@ -39,6 +35,7 @@ button{
 
 .competition-item p {
   margin: 5px 0;
+  color: #555;
 }
 
 .competition-item a {
@@ -48,4 +45,40 @@ button{
 
 .competition-item a:hover {
   text-decoration: underline;
+}
+
+.competition-item button {
+  background-color: #5d0792;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.competition-item button:hover {
+  background-color: #490669;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Fade-in-up animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

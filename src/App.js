@@ -4,14 +4,16 @@ import Home from './Home';
 import About from './About';
 import Courses from './Courses';
 import Notes from './Notes';
-import Competitions from './Competitions'; // Import the Competitions component
-import Qpapers from './Qpapers'; // Import the Qpapers component
+import Competitions from './Competitions';
+import Qpapers from './Qpapers';
+import SocialMediaSidebar from './SocialMediaSidebar';
 import './App.css';
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <SocialMediaSidebar />
         <header className="App-header">
           <Link to="/" className="logo-link">
             <img src='./images/logo.jpg' alt="logo" height="50" width="50" className="logo-img" />
@@ -23,7 +25,7 @@ function App() {
             <Link to="/courses">Courses</Link>
             <Link to="/notes">Notes</Link>
             <Link to="/competitions">Competitions</Link>
-            <Link to="/qpapers">Qpapers</Link> {/* Add Qpapers link */}
+            <Link to="/qpapers">Qpapers</Link>
           </nav>
         </header>
         <main>
@@ -33,7 +35,7 @@ function App() {
             <Route path="/courses" element={<Courses />} />
             <Route path="/notes" element={<Notes />} />
             <Route path="/competitions" element={<Competitions />} />
-            <Route path="/qpapers" element={<Qpapers />} /> {/* Add Qpapers route */}
+            <Route path="/qpapers" element={<Qpapers />} />
           </Routes>
         </main>
         <footer>

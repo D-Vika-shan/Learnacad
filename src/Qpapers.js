@@ -6,7 +6,7 @@ const pdfsData = [
     id: 1,
     subject: 'Complex Variables and Linear Algebra',
     description: 'BMAT201L-A2+TA2+TAA2-CAT1_Answer key2',
-    pdfUrl: "./papers/BMAT201L-A2+TA2+TAA2-CAT1_Answer key2.pdf"
+    pdfUrl: "https://drive.google.com/file/d/1K8BGkz2NFnm077kWyh5J_M6aXXXKIFKj/view?usp=sharing"
   },
   {
     id: 2,
