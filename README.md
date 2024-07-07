@@ -1,70 +1,72 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# LearnAcad
 
-## Available Scripts
+Welcome to LearnAcad, the ultimate education app designed to empower college students like you. Developed using the power of React.js and hosted on Vercel, LearnAcad is your one-stop-shop for all your academic needs.
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
+**User Authentication:** Easy sign-up and log-in process.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Home Page:** Engaging slider showcasing the latest updates and features.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Notes Tab:** Access to a vast library of educational resources with Google Drive PDFs.
 
-### `npm test`
+**Courses Tab:** Discover and access course materials with direct links to YouTube playlists.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Competitions Tab:** Information on upcoming tech contests.
 
-### `npm run build`
+**QPapers Tab:**  Practice questions and exam preparation materials in Google Drive PDFs.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
+To get started with LearnAcad on your local machine, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`git clone https://github.com/your-username/LearnAcad.git`
 
-### `npm run eject`
+Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`cd LearnAcad`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install the dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`npm install`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Start the development server:
 
-## Learn More
+`npm start`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
+**Sign up or log in:** Create an account or log in with your existing credentials.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Explore the home page:** Browse the latest updates and features.
 
-### Code Splitting
+**Access notes:** Navigate to the Notes tab to search and access educational resources.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Discover courses:** Use the Courses tab to find and access course materials with YouTube playlists.
 
-### Analyzing the Bundle Size
+**Stay updated with competitions:** Check the Competitions tab for information on upcoming tech contests.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Prepare for exams:**  Utilize the Q Papers tab to find practice questions and exam preparation materials.
 
-### Making a Progressive Web App
+## Contributing
+We welcome contributions to improve LearnAcad! To contribute, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Fork the repository:**
+Click the "Fork" button at the top-right corner of this page.
 
-### Advanced Configuration
+**Clone your forked repository:**
+`git clone https://github.com/your-username/LearnAcad.git`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Create a new branch:**
+`git checkout -b feature-branch-name`
 
-### Deployment
+**Make your changes and commit them:**
+`git commit -m "Description of your changes"`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Push your changes to your forked repository:**
+`git push origin feature-branch-name`
 
-### `npm run build` fails to minify
+**Create a pull request:**
+Open a pull request to merge your changes into the main repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
