@@ -4,7 +4,7 @@ import './Notes.css'; // Create and import a CSS file for styling
 const notesData = [
   {
     id: 1,
-    name: 'Databse Systems',
+    name: 'Database Systems',
     imageUrl: './images/DBS.jpg',
     modules: [
       { name: 'Module 1', pdfUrl: 'https://drive.google.com/file/d/1O2veyqHVPEpJkP0fJxz8e-aRql55HDZx/view?usp=sharing' },
