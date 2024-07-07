@@ -3,6 +3,19 @@
 
 Welcome to LearnAcad, the ultimate education app designed to empower college students like you. Developed using the power of React.js and hosted on Vercel, LearnAcad is your one-stop-shop for all your academic needs.
 
+## Screenshots
+
+![App Screenshot1](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+![App Screenshot2](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+![App Screenshot3](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+![App Screenshot4](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+![App Screenshot5](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+![App Screenshot6](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 ## Features
 **User Authentication:** Easy sign-up and log-in process.
