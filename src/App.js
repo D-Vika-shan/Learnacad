@@ -4,6 +4,7 @@ import Home from './Home';
 import About from './About';
 import Courses from './Courses';
 import Notes from './Notes';
+import Login from './Login';
 import Competitions from './Competitions';
 import Qpapers from './Qpapers';
 import SocialMediaSidebar from './SocialMediaSidebar';
@@ -28,6 +29,7 @@ function App() {
             <Link to="/notes">Notes</Link>
             <Link to="/competitions">Competitions</Link>
             <Link to="/qpapers">Qpapers</Link>
+            <Link to="/login"><img src="/images/user.png" height='30px' width='35px' style={{ fill: 'white' }} alt="log in" /></Link>
           </nav>
         </header>
         <main>
@@ -38,10 +40,11 @@ function App() {
             <Route path="/notes" element={<Notes />} />
             <Route path="/competitions" element={<Competitions />} />
             <Route path="/qpapers" element={<Qpapers />} />
+            <Route path="/login" element={<Login />} />
           </Routes>
         </main>
         <footer>
-          {/* Your footer content */}
+          {<p>&copy; Webzters 2024</p>}
         </footer>
       </div>
     </Router>

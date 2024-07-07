@@ -1,0 +1,11 @@
+.owl-container {    
+    margin-left: 5px;
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .owl-gif {
+    width: 500px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

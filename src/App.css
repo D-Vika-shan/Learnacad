@@ -21,7 +21,14 @@ h1{
 body{
   background-color: rgb(255, 255, 255);
 }
-.App-header {
+footer{
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  padding:20px;
+  margin-top:50px;
+}
+.App-header{
   display: flex;
   justify-content: space-between;
   align-items: center;

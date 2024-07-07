@@ -1,0 +1,62 @@
+/* Course Preview Styles */
+.course-preview {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.course-card {
+  flex: 1 1 30%; /* Flex property to ensure responsiveness */
+  margin: 10px; /* Add some margin for spacing */
+  max-width: 30%; /* Ensure cards do not grow too large */
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none; /* Ensure links have no underline */
+  color: inherit; /* Inherit text color */
+  transition: transform 0.3s ease; /* Add a transition for hover effect */
+}
+
+.course-card:hover {
+  transform: translateY(-10px); /* Slightly lift the card on hover */
+}
+
+.course-card img {
+  width: 100%;
+  height: 200px; /* Adjust to match slide height */
+  object-fit: cover;
+}
+
+.course-card .course-details {
+  padding: 15px;
+}
+
+.course-card .course-details h4 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.course-card .course-details p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 1024px) {
+  .course-card {
+    flex: 1 1 45%; /* Adjust width for medium screens */
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .course-card {
+    flex: 1 1 100%; /* Stack cards vertically on smaller screens */
+    max-width: 100%;
+  }
+}

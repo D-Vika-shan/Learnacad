@@ -1,0 +1,11 @@
+.frog-container {    
+    margin-left: 5px;
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .frog-gif {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

@@ -1,0 +1,48 @@
+/* notes Preview Styles */
+.notes-preview {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 100%;
+    gap:10px;
+ /* Match the max-width of the slider */
+  }
+  
+  .notes-card {
+    width: 30%; /* Adjust as needed to fit three cards side by side */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none; /* Ensure links have no underline */
+    color: inherit; /* Inherit text color */
+    transition: transform 0.3s ease; /* Add a transition for hover effect */
+  }
+  
+  .notes-card:hover {
+    transform: translateY(-10px); /* Slightly lift the card on hover */
+  }
+  
+  .notes-card img {
+    width: 100%;
+    height: 200px; /* Adjust to match slide height */
+    object-fit: cover;
+  }
+  
+  .notes-card .notes-details {
+    padding: 15px;
+  }
+  
+  .notes-card .notes-details h4 {
+    margin: 10px 0;
+    font-size: 24px;
+  }
+  
+  .notes-card .notes-details p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
