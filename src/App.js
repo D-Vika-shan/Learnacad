@@ -16,9 +16,11 @@ function App() {
         <SocialMediaSidebar />
         <header className="App-header">
           <Link to="/" className="logo-link">
-            <img src='./images/logo.jpg' alt="logo" height="50" width="50" className="logo-img" />
+            <img src='./images/logo.png' alt="logo" height="50" width="50" className="logo-img" />
             <h1>LearnAcad</h1>
           </Link>
+          <p style={{ fontStyle: 'italic', color: '#bd81e6' }}>SDG-4: Education Technology</p>
+
           <nav>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>

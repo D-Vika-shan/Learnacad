@@ -10,17 +10,35 @@ const pdfsData = [
   },
   {
     id: 2,
-    subject: 'Computer Networks',
-    description: 'Sample question papers for computer networks course.',
-    pdfUrl: '/pdfs/computer-networks.pdf'
+    subject: 'Database Systems',
+    description: 'CSE2004 FAT 2K19 D1',
+    pdfUrl: 'https://drive.google.com/file/d/1bMlnDNcCY88VNlooefjUI7qQQ0eOEj1n/view?usp=sharing'
   },
   {
     id: 3,
-    subject: 'Operating Systems',
-    description: 'Operating systems question papers with solutions.',
-    pdfUrl: '/pdfs/operating-systems.pdf'
+    subject: 'Database Systems',
+    description: 'CSE2004 FAT 2K19 FALL 2018',
+    pdfUrl: 'https://drive.google.com/file/d/1F6cM3zD175k1t9OjE7dAAeQV-_P8KVaV/view?usp=sharing'
+  },
+  {
+    id: 4,
+    subject: 'Database Systems',
+    description: 'CSE2004 FAT 2K19 DBMS D2',
+    pdfUrl: 'https://drive.google.com/file/d/1tbl1CO8FEw6IOHbH136L98gB9VEJ9BCJ/view?usp=sharing'
+  },
+  {
+    id: 5,
+    subject: 'Machine Learning',
+    description: 'F Machine Learning FAT F1-2',
+    pdfUrl: 'https://drive.google.com/file/d/1aE5yLw2Mxw3F0RIlp-Zole98EW7eSWXk/view?usp=sharing'
+  },
+  {
+    id: 6,
+    subject: 'Machine Learning',
+    description: 'F Machine Learning FAT E2',
+    pdfUrl: 'https://drive.google.com/file/d/1luiyf3WzJGKWJe3wlLiM4AKlYUahqtg7/view?usp=sharing'
   }
-  // Add more PDFs as needed
+  
 ];
 
 const Qpapers = () => {

@@ -1,6 +1,8 @@
 .competitions {
   padding: 20px;
   text-align: center;
+  margin-left:100px;
+  margin-right:100px;
   animation: fadeInUp 1s ease-in-out;
 }
 
@@ -15,7 +17,7 @@
 }
 
 .competition-item {
-  background-color: #bd81e6;
+  background-color: #e6c4fd;
   padding: 15px;
   border-radius: 8px;
   margin-bottom: 20px;

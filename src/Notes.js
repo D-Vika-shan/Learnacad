@@ -4,16 +4,16 @@ import './Notes.css'; // Create and import a CSS file for styling
 const notesData = [
   {
     id: 1,
-    name: 'Computer Networks',
-    imageUrl: './images/CN.jpeg',
+    name: 'Databse Systems',
+    imageUrl: './images/DBS.jpg',
     modules: [
-      { name: 'Module 1', pdfUrl: 'https://drive.google.com/file/d/<your-file-id-1>/preview' },
-      { name: 'Module 2', pdfUrl: 'https://drive.google.com/file/d/<your-file-id-2>/preview' },
-      { name: 'Module 3', pdfUrl: 'https://drive.google.com/file/d/<your-file-id-3>/preview' },
-      { name: 'Module 4', pdfUrl: 'https://drive.google.com/file/d/<your-file-id-4>/preview' },
-      { name: 'Module 5', pdfUrl: 'https://drive.google.com/file/d/<your-file-id-5>/preview' },
-      { name: 'Module 6', pdfUrl: 'https://drive.google.com/file/d/<your-file-id-6>/preview' },
-      { name: 'Module 7', pdfUrl: 'https://drive.google.com/file/d/<your-file-id-7>/preview' },
+      { name: 'Module 1', pdfUrl: 'https://drive.google.com/file/d/1O2veyqHVPEpJkP0fJxz8e-aRql55HDZx/view?usp=sharing' },
+      { name: 'Module 2', pdfUrl: 'https://drive.google.com/drive/folders/153xWmK_lx22tN7jzA0sRnGZ729ocnUtd?usp=sharing' },
+      { name: 'Module 3', pdfUrl: 'https://drive.google.com/drive/folders/1c4CqX66J3B8Nybg7gObtWvIQgS0w-DUu?usp=sharing' },
+      { name: 'Module 4', pdfUrl: 'hhttps://drive.google.com/drive/folders/1FIGXndSF1bIC0HhVlMxBfFKoNr94HWgG?usp=sharing' },
+      { name: 'Module 5', pdfUrl: 'https://drive.google.com/drive/folders/14B6ZjeyyKZCMQA8avks8QcHKzsrY10qC?usp=sharing' },
+      { name: 'Module 6', pdfUrl: 'https://drive.google.com/drive/folders/165ZQr1OEFYLsCap2m-Xz3bvQXkTg48f0?usp=sharing' },
+      { name: 'Module 7', pdfUrl: 'https://drive.google.com/file/d/12EemLNTwkUWDxQzD4OBWT58PgdYrO6pk/view?usp=sharing' },
     ],
   },
   {

@@ -9,8 +9,17 @@ h1{
   color: #bd81e6;
 }
 
+.abt-sec{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color:#565555;
+  padding: 15px;
+  border-radius: 8px;
+  display:inline-block;
+  margin:20px;
+}
+
 body{
-  background-color: rgb(95, 51, 155);
+  background-color: rgb(255, 255, 255);
 }
 .App-header {
   display: flex;
@@ -30,7 +39,7 @@ body{
   display: block;
   margin: 5px 0;
   padding: 10px;
-  background-color: #bd81e6;
+  background-color: #e6c4fd;
   color: white;
   border: none;
   cursor: pointer;
