@@ -39,7 +39,7 @@ const coursesData = [
   },
   {
     id: 6,
-    name: 'Database Systema',
+    name: 'Database Systems',
     duration: '20 hours',
     imageUrl: './images/DBS.jpg', // Same image for example
     youtubeLink: 'https://www.youtube.com/watch?v=6Iu45VZGQDk&list=PLBlnK6fEyqRi_CUQ-FXxgzKQ1dwr_ZJWZ'
