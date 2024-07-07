@@ -5,17 +5,17 @@ Welcome to LearnAcad, the ultimate education app designed to empower college stu
 
 ## Screenshots
 
-![App Screenshot1](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot1](https://github.com/D-Vika-shan/Learnacad/blob/main/public/images/Screenshot1.png)
 
-![App Screenshot2](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot2](https://github.com/D-Vika-shan/Learnacad/blob/main/public/images/Screenshot2.png)
 
-![App Screenshot3](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot3](https://github.com/D-Vika-shan/Learnacad/blob/main/public/images/Screenshot3.png)
 
-![App Screenshot4](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot4](https://github.com/D-Vika-shan/Learnacad/blob/main/public/images/Screenshot4.png)
 
-![App Screenshot5](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot5](https://github.com/D-Vika-shan/Learnacad/blob/main/public/images/Screenshot5.png)
 
-![App Screenshot6](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot6](https://github.com/D-Vika-shan/Learnacad/blob/main/public/images/Screenshot6.png)
 
 ## Features
 **User Authentication:** Easy sign-up and log-in process.
