@@ -111,14 +111,10 @@ function About() {
     <div className="about-container">
       <canvas ref={threeCanvas} className="about-canvas" />
       <div className="about-overlay">
-        <div className="sdg-goal">
-          <p>SDG-4 Quality Education</p>
-        </div>
         <div className="about-details">
           <h1>About Us</h1>
           <h2><strong>Team Name:</strong> Webzters</h2>
           <ul>
-            
             <li><strong>Name:</strong> Devika Prashant</li>
             <li><strong>Registration Number:</strong> 22BAI1196</li>
             <li><strong>Contact Number:</strong> 9345909097</li>
@@ -129,6 +125,14 @@ function About() {
             <li><strong>Contact Number:</strong> 7305831064</li>
             <li><strong>VIT Email ID:</strong> mridula.prasad2022@vitstudent.ac.in</li>
           </ul>
+        </div>
+        <div className="video-container">
+          <iframe
+            src="https://drive.google.com/file/d/1KIaPJMw4pclJdFf9F--oApAUuQQSRIuk/preview"
+            width="700"
+            height="400"
+            allow="autoplay"
+          ></iframe>
         </div>
       </div>
     </div>
