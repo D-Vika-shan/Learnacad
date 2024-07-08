@@ -39,25 +39,25 @@ const previousYearQPs = [
   {
     title: '2023 Previous Year QP',
     description: 'Download the question paper for the year 2023 and prepare thoroughly.',
-    downloadLink: '/previous-year-qp-2023.pdf',
+    downloadLink: '/qpapers',
     imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNEMNsRwJ99B-uuykQtnoFpD8jHfNveODYGA&s', // Replace with your QP image URL
   },
   {
     title: '2022 Previous Year QP',
     description: 'Review the question paper from 2022 to gauge your preparation level.',
-    downloadLink: '/previous-year-qp-2022.pdf',
+    downloadLink: '/qpapers',
     imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7bFUdUlHsKiMIaLfPNGPaxsSn0p2werVTMA&s', // Replace with your QP image URL
   },
   {
     title: '2021 Previous Year QP',
     description: 'Explore the question paper from 2021 to understand exam patterns.',
-    downloadLink: '/previous-year-qp-2021.pdf',
+    downloadLink: '/qpapers',
     imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoFVXFyIGdM362XLiVIYWQRgk88KJ-2JZCSw&s', // Replace with your QP image URL
   },
   {
     title: '2020 Previous Year QP',
     description: 'Access the question paper from 2020 to revise important topics.',
-    downloadLink: '/previous-year-qp-2020.pdf',
+    downloadLink: '/qpapers',
     imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7tGOunnqHhDwwlfmQTnm86la6Nc8UlKfumg&s', // Replace with your QP image URL
   },
 ];
@@ -142,7 +142,7 @@ function Home() {
             <div className="qp-card-content">
               <h4>{qp.title}</h4>
               <p>{qp.description}</p>
-              <a href={qp.downloadLink} download>
+              <a href={qp.downloadLink}>
                 <button className="qp-download-button">Click Here</button>
               </a>
             </div>
@@ -158,7 +158,7 @@ function Home() {
           <p>Calling all students to participate in our thrilling global competition! Showcase your skills, ignite your creativity, and compete with peers from around the world.</p>
           <p>Don't miss out on this incredible opportunity to learn, grow, and win amazing prizes.</p>
           <p>Register now and pave the way to a brighter future!</p>
-          <Link to="/competition-details">
+          <Link to="/competitions">
             <button className="owl-banner-button">Join Now</button>
           </Link>
         </div>
