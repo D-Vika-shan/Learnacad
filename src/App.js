@@ -4,11 +4,11 @@ import Home from './Home';
 import About from './About';
 import Courses from './Courses';
 import Notes from './Notes';
-import Login2 from './Login2';
+import Login from './Login';
 import Competitions from './Competitions';
 import Qpapers from './Qpapers';
 import SocialMediaSidebar from './SocialMediaSidebar';
-import { auth, logout } from './firebase'; // Adjust the path as needed
+import { auth, logout } from './firebase'; 
 import './App.css';
 
 function App() {
@@ -60,7 +60,7 @@ function App() {
             <Route path="/notes" element={<Notes />} />
             <Route path="/competitions" element={<Competitions />} />
             <Route path="/qpapers" element={<Qpapers />} />
-            <Route path="/login" element={<Login2 />} />
+            <Route path="/login" element={<Login />} />
           </Routes>
         </main>
         <footer>
