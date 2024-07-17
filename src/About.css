@@ -1,5 +1,4 @@
 .about-container {
-  
   position: relative;
   display: flex;
   justify-content: center;
@@ -14,7 +13,6 @@
 }
 
 .about-overlay {
-  
   position: absolute;
   top: 0;
   left: 0;
@@ -48,4 +46,32 @@
 
 video {
   border-radius: 5px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .about-details {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-container {
+    padding: 5px;
+  }
+
+  .about-details {
+    padding: 10px;
+  }
 }
