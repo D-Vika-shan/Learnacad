@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
@@ -8,34 +8,28 @@ import Login from './Login';
 import Competitions from './Competitions';
 import Qpapers from './Qpapers';
 import SocialMediaSidebar from './SocialMediaSidebar';
-import { auth, logout } from './firebase'; 
 import './App.css';
 
 function App() {
-  const [user, setUser] = useState(null);
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged((user) => {
-      if (user) {
-        setUser(user);
-      } else {
-        setUser(null);
-      }
-    });
-    return () => unsubscribe();
-  }, []);
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
 
   return (
     <Router>
       <div className="App">
         <SocialMediaSidebar />
-        <header className="App-header">
+        <header className={`App-header ${menuOpen ? 'menu-open' : ''}`}>
           <Link to="/" className="logo-link">
             <img src='./images/logo.png' alt="logo" height="50" width="50" className="logo-img" />
             <h1>LearnAcad</h1>
           </Link>
           <p style={{ fontStyle: 'italic', color: '#bd81e6' }}>SDG-4: Education Technology</p>
-
+          <div className="menu-icon" onClick={toggleMenu}>
+            &#9776; 
+          </div>
           <nav>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
@@ -43,13 +37,7 @@ function App() {
             <Link to="/notes">Notes</Link>
             <Link to="/competitions">Competitions</Link>
             <Link to="/qpapers">Qpapers</Link>
-            {user ? (
-              <>
-                <img src={user.photoURL} height="30px" width="35px" alt="user" onClick={logout} style={{ cursor: 'pointer', borderRadius: '50%' }} />
-              </>
-            ) : (
-              <Link to="/login"><img src="/images/user.png" height="30px" width="35px" alt="log in" /></Link>
-            )}
+            <Link to="/login"><img src="/images/user.png" height='30px' width='35px' style={{ fill: 'white' }} alt="log in" /></Link>
           </nav>
         </header>
         <main>
