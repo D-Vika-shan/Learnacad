@@ -1,16 +1,30 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Courses from './Courses';
 import Notes from './Notes';
-import Login from './Login';
+import Login2 from './Login2';
 import Competitions from './Competitions';
 import Qpapers from './Qpapers';
 import SocialMediaSidebar from './SocialMediaSidebar';
+import { auth, logout } from './firebase'; // Adjust the path as needed
 import './App.css';
 
 function App() {
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((user) => {
+      if (user) {
+        setUser(user);
+      } else {
+        setUser(null);
+      }
+    });
+    return () => unsubscribe();
+  }, []);
+
   return (
     <Router>
       <div className="App">
@@ -29,7 +43,13 @@ function App() {
             <Link to="/notes">Notes</Link>
             <Link to="/competitions">Competitions</Link>
             <Link to="/qpapers">Qpapers</Link>
-            <Link to="/login"><img src="/images/user.png" height='30px' width='35px' style={{ fill: 'white' }} alt="log in" /></Link>
+            {user ? (
+              <>
+                <img src={user.photoURL} height="30px" width="35px" alt="user" onClick={logout} style={{ cursor: 'pointer', borderRadius: '50%' }} />
+              </>
+            ) : (
+              <Link to="/login"><img src="/images/user.png" height="30px" width="35px" alt="log in" /></Link>
+            )}
           </nav>
         </header>
         <main>
@@ -40,7 +60,7 @@ function App() {
             <Route path="/notes" element={<Notes />} />
             <Route path="/competitions" element={<Competitions />} />
             <Route path="/qpapers" element={<Qpapers />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="/login" element={<Login2 />} />
           </Routes>
         </main>
         <footer>

@@ -1,34 +1,36 @@
+/* General Styles */
 .App {
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 0px;
-  
 }
 
-h1{
+h1 {
   color: #bd81e6;
 }
 
-.abt-sec{
+.abt-sec {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  color:#565555;
+  color: #565555;
   padding: 15px;
   border-radius: 8px;
-  display:inline-block;
-  margin:20px;
+  display: inline-block;
+  margin: 20px;
 }
 
-body{
+body {
   background-color: rgb(255, 255, 255);
 }
-footer{
+
+footer {
   text-align: center;
   background-color: #282c34;
   color: white;
-  padding:20px;
-  margin-top:50px;
+  padding: 20px;
+  margin-top: 50px;
 }
-.App-header{
+
+.App-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +41,6 @@ footer{
 
 .notes .years, .notes .subjects {
   margin: 10px 0;
-  
 }
 
 .notes .years button, .notes .subjects button {
@@ -51,14 +52,14 @@ footer{
   border: none;
   cursor: pointer;
 }
-.logo-link{
+
+.logo-link {
   display: inline-flex;
   align-items: center;
-  
 }
 
 .logo-img {
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 
 .notes .note-content {
@@ -67,19 +68,18 @@ footer{
   border: 1px solid #ccc;
 }
 
-.subjects{
+.subjects {
   display: inline;
 }
 
-.side{
+.side {
   display: inline-block;
 }
 
-.years{
+.years {
   display: inline-flex;
-  padding :10px;
+  padding: 10px;
 }
-
 
 .logo {
   font-size: 1.5em;
@@ -131,3 +131,81 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .App-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 1.2em;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+
+  .abt-sec {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .notes .years, .notes .subjects {
+    display: block;
+  }
+
+  .notes .years button, .notes .subjects button {
+    width: 100%;
+  }
+
+  .side, .subjects {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+
+  .years {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+
+  main {
+    margin: 10px 0;
+  }
+
+  footer {
+    padding: 10px;
+    height:100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .App-header {
+    padding: 5px;
+  }
+
+  .abt-sec {
+    padding: 10px;
+  }
+
+  .notes .years button, .notes .subjects button {
+    padding: 8px;
+  }
+
+  footer {
+    padding: 5px;
+    font-size: 0.8em;
+  }
+}
+
+.App-header img {
+  border-radius: 50%;
+}
+
