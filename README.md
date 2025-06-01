@@ -69,7 +69,6 @@ We welcome contributions to improve LearnAcad! To contribute, follow these steps
 Click the "Fork" button at the top-right corner of this page.
 
 **Clone your forked repository:**
-`git clone https://github.com/your-username/LearnAcad.git`
 
 **Create a new branch:**
 `git checkout -b feature-branch-name`
