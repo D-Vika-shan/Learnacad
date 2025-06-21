@@ -33,9 +33,7 @@ Welcome to LearnAcad, the ultimate education app designed to empower college stu
 ## Installation
 To get started with LearnAcad on your local machine, follow these steps:
 
-Clone the repository:
-
-`git clone https://github.com/your-username/LearnAcad.git`
+Clone the repository
 
 Navigate to the project directory:
 
